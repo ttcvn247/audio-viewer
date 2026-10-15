@@ -23,7 +23,8 @@
 # misc
 .DS_Store
 *.pem
-keys/license_private_key.pem
+keys/
+scripts/
 
 # debug
 npm-debug.log*
