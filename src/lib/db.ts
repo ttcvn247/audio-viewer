@@ -57,12 +57,4 @@ if (!emailExists) {
   db.prepare('INSERT INTO settings (key, value) VALUES (?, ?)').run('ADMIN_EMAIL', defaultAdminEmail);
 }
 
-// Seed default 30-day license expiration if not set
-const licenseExists = db.prepare('SELECT value FROM settings WHERE key = ?').get('LICENSE_EXPIRES_AT');
-if (!licenseExists) {
-  const initialExpiry = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString();
-  db.prepare('INSERT INTO settings (key, value) VALUES (?, ?)').run('LICENSE_EXPIRES_AT', initialExpiry);
-  console.log('Seeded initial 30-day license expiring at:', initialExpiry);
-}
-
 export default db;
