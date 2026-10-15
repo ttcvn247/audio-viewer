@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[558],{1743:()=>{},3478:(e,a,s)=>{Promise.resolve().then(s.t.bind(s,4091,23)),Promise.resolve().then(s.t.bind(s,1743,23))},4091:e=>{e.exports={style:{fontFamily:"'mfsFont', 'mfsFont Fallback'"},className:"__className_5ada53",variable:"__variable_5ada53"}}},e=>{e.O(0,[918,441,794,358],()=>e(e.s=3478)),_N_E=e.O()}]);
