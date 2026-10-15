@@ -84,8 +84,8 @@ Trước khi cài đặt, máy tính máy chủ (Server/PC cài ứng dụng) c�
 
 Khi truy cập trang web lần đầu, hệ thống sẽ yêu cầu đăng nhập:
 
-- **Tên đăng nhập (Email):** `phuongvb@mobifoneservice.com.vn`
-- **Mật khẩu mặc định:** `123456`
+- **Tên đăng nhập (Email):** `demo@mobifoneservice.com.vn`
+- **Mật khẩu mặc định:** `demo@123`
 
 > **Lưu ý bảo mật:** Sau khi đăng nhập thành công, hãy nhấn vào biểu tượng **👤 Tài khoản** góc trên bên phải màn hình để **Đổi mật khẩu** ngay.
 

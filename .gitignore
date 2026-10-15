@@ -25,6 +25,9 @@
 *.pem
 keys/
 scripts/
+*.db
+*.db-journal
+public/mock_records/
 
 # debug
 npm-debug.log*

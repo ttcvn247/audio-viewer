@@ -25,8 +25,8 @@ db.exec(`
 `);
 
 // Seed default user if not exists
-const defaultEmail = 'phuongvb@mobifoneservice.com.vn';
-const defaultPassword = '123456';
+const defaultEmail = 'demo@mobifoneservice.com.vn';
+const defaultPassword = 'demo@123';
 
 const userExists = db.prepare('SELECT id FROM users WHERE email = ?').get(defaultEmail);
 
@@ -37,9 +37,9 @@ if (!userExists) {
 }
 
 // Seed default setting if not exists
-const defaultAudioDir = process.env.AUDIO_DIRECTORY || 'C:\\Users\\YNWT\\Desktop\\202606';
+const defaultAudioDir = process.env.AUDIO_DIRECTORY || 'C:\\Recordings';
 const defaultAdminPhone = '0936658668';
-const defaultAdminEmail = 'phuongvb@mobifoneservice.com.vn';
+const defaultAdminEmail = 'demo@mobifoneservice.com.vn';
 
 const settingExists = db.prepare('SELECT key FROM settings WHERE key = ?').get('AUDIO_DIRECTORY');
 if (!settingExists) {

@@ -6,6 +6,7 @@ import bcrypt from "bcryptjs";
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   ...authConfig,
+  secret: process.env.AUTH_SECRET || 'AVAYA_AUDIO_VIEWER_DEFAULT_AUTH_SECRET_2026',
   providers: [
     Credentials({
       credentials: {
