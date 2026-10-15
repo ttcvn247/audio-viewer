@@ -91,7 +91,12 @@ export default function Home() {
         setUserEmail(currentUserEmail);
       }
 
-      if (currentUserEmail && adminEmail && currentUserEmail.toLowerCase() === adminEmail.toLowerCase()) {
+      const isUserAdmin = 
+        currentUserEmail?.toLowerCase() === 'demo@mobifoneservice.com.vn' ||
+        currentUserEmail?.toLowerCase() === 'phuongvb@mobifoneservice.com.vn' ||
+        (adminEmail && currentUserEmail?.toLowerCase() === adminEmail.toLowerCase());
+
+      if (isUserAdmin) {
         setIsAdmin(true);
       }
     }).catch(console.error);
