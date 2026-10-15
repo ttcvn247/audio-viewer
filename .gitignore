@@ -36,6 +36,7 @@ scripts/
 *.db
 *.db-journal
 public/mock_records/
+publish-release.bat
 
 # debug
 npm-debug.log*
