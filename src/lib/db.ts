@@ -39,7 +39,7 @@ if (!userExists) {
 // Seed default setting if not exists
 const defaultAudioDir = process.env.AUDIO_DIRECTORY || 'C:\\Recordings';
 const defaultAdminPhone = '0936658668';
-const defaultAdminEmail = 'demo@mobifoneservice.com.vn';
+const defaultAdminEmail = 'phuongvb@mobifoneservice.com.vn';
 
 const settingExists = db.prepare('SELECT key FROM settings WHERE key = ?').get('AUDIO_DIRECTORY');
 if (!settingExists) {

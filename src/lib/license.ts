@@ -177,7 +177,7 @@ export function getLicenseStatus() {
     expiresAt: expiresSetting.value,
     daysRemaining,
     contactPhone: phoneSetting?.value || '0936658668',
-    contactEmail: emailSetting?.value || 'demo@mobifoneservice.com.vn',
+    contactEmail: emailSetting?.value || 'phuongvb@mobifoneservice.com.vn',
   };
 }
 
