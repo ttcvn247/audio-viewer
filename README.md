@@ -11,7 +11,6 @@ Phần mềm web tra cứu, lọc và nghe trực tuyến các file ghi âm cu�
 4. [Cấu hình đường dẫn thư mục ghi âm](#4-cấu-hình-đường-dẫn-thư-mục-ghi-âm)
 5. [Cho phép các máy tính khác trong mạng LAN truy cập](#5-cho-phép-các-máy-tính-khác-trong-mạng-lan-truy-cập)
 6. [Cài đặt tự động khởi động cùng Windows](#6-cài-đặt-tự-động-khởi-động-cùng-windows)
-7. [Hướng dẫn kích hoạt / gia hạn bản quyền](#7-hướng-dẫn-kích-hoạt--gia-hạn-bản-quyền)
 
 ---
 
@@ -145,20 +144,3 @@ npm run start -- -H 0.0.0.0 -p 3000
 3. Nhấn tổ hợp phím `Windows + R`, gõ `shell:startup` rồi nhấn **Enter** (thư mục Startup sẽ mở ra).
 4. Tạo một **Shortcut** của file `start_server.bat` bỏ vào thư mục Startup này.
 5. Xong! Từ nay mỗi khi bật máy, website sẽ tự động chạy ngầm.
-
----
-
-## 7. Hướng dẫn kích hoạt / gia hạn bản quyền
-
-Hệ thống được trang bị cơ chế kiểm soát bản quyền thông minh:
-- **Dùng thử mặc định:** 30 ngày kể từ khi hệ thống bắt đầu hoạt động.
-- **Khi hết hạn:** Màn hình sẽ hiện bảng khóa:
-  > **"HỆ THỐNG ĐÃ HẾT HẠN SỬ DỤNG - Vui lòng liên hệ Quản trị viên"**
-  > Kèm theo Số điện thoại và Email của Quản trị viên để liên hệ.
-
-### Cách nạp mã gia hạn:
-1. Liên hệ Tác giả/Quản trị viên để nhận mã kích hoạt (dạng: `ACT-30-XXXXXXXX.chữ_ký...`).
-2. Copy toàn bộ chuỗi mã được cấp.
-3. Dán vào ô **"Nhập mã kích hoạt (License Key)"** trên màn hình khóa (hoặc trong menu Cài đặt).
-4. Bấm **"KÍCH HOẠT VÀ MỞ KHÓA"**.
-5. Hệ thống sẽ mở khóa ngay lập tức và cộng thêm thời hạn sử dụng mà không cần tắt hay khởi động lại máy chủ.
