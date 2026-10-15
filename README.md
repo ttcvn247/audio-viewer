@@ -70,13 +70,15 @@ Trước khi cài đặt, máy tính máy chủ (Server/PC cài ứng dụng) c�
    ```
    *(Chỉ cần chạy lệnh này một lần sau khi cài đặt hoặc khi có cập nhật code mới)*.
 
-2. **Khởi động website:**
-   ```powershell
-   npm run start
-   ```
-
-3. Mở trình duyệt web (Google Chrome, Microsoft Edge, Cốc Cốc) và truy cập:
-   👉 **[http://localhost:3000](http://localhost:3000)**
+2. **Khởi động website (Chọn 1 trong 2 cách):**
+   - **Cách 1 (Khuyên dùng - Cực dễ):** Nhấp đúp chuột trực tiếp vào file **`audio-viewer.exe`**.
+     - Phần mềm sẽ tự động khởi động máy chủ web.
+     - **Tự động mở trình duyệt web** đến `http://localhost:3000` sau 3 giây.
+   - **Cách 2:** Chạy lệnh thủ công trong PowerShell / CMD:
+     ```powershell
+     npm run start
+     ```
+     Sau đó mở trình duyệt truy cập: 👉 **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
@@ -132,15 +134,7 @@ npm run start -- -H 0.0.0.0 -p 3000
 
 Để website tự động chạy mỗi khi máy chủ bật nguồn hoặc khởi động lại mà không cần ai phải mở cửa sổ lệnh gõ thủ công:
 
-### Cách đơn giản nhất (Dùng File Khởi Động .bat):
-1. Trong thư mục `audio-viewer`, tạo một file mới đặt tên là `start_server.bat`.
-2. Chuột phải chọn **Edit** và dán nội dung sau vào:
-   ```bat
-   @echo off
-   cd /d "D:\Recording IPCC\audio-viewer"
-   npm run start -- -H 0.0.0.0 -p 3000
-   ```
-   *(Thay đường dẫn `D:\Recording IPCC\audio-viewer` bằng đường dẫn thực tế trên máy)*.
-3. Nhấn tổ hợp phím `Windows + R`, gõ `shell:startup` rồi nhấn **Enter** (thư mục Startup sẽ mở ra).
-4. Tạo một **Shortcut** của file `start_server.bat` bỏ vào thư mục Startup này.
-5. Xong! Từ nay mỗi khi bật máy, website sẽ tự động chạy ngầm.
+### Cách nhanh nhất:
+1. Nhấn tổ hợp phím `Windows + R`, gõ `shell:startup` rồi nhấn **Enter** (thư mục Startup của Windows sẽ mở ra).
+2. Tạo một **Shortcut** của file **`audio-viewer.exe`** (hoặc `start_server.bat`) kéo thả vào thư mục Startup này.
+3. Xong! Từ nay mỗi khi bật máy chủ, website sẽ tự động chạy và bật trình duyệt.
