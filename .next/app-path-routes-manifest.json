@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/api/audio/route": "/api/audio",
+  "/api/settings/public/route": "/api/settings/public",
+  "/api/settings/route": "/api/settings",
+  "/api/user/password/route": "/api/user/password",
+  "/api/users/route": "/api/users",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/license/activate/route": "/api/license/activate",
+  "/api/license/status/route": "/api/license/status",
+  "/api/records/route": "/api/records",
+  "/login/page": "/login"
+}
