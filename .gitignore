@@ -13,8 +13,16 @@
 # testing
 /coverage
 
-# next.js
-/.next/
+# next.js build cache & temp files (ignore heavy caches, track compiled output)
+/.next/cache/
+/.next/dev/
+/.next/diagnostics/
+/.next/node_modules/
+/.next/standalone/
+/.next/trace*
+/.next/turbopack*
+/.next/types/
+*.map
 /out/
 
 # production
