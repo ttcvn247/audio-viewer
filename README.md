@@ -24,29 +24,26 @@ Trước khi chạy phần mềm, máy tính (Server/PC) cần đáp ứng:
 
 ---
 
-## 2. Hướng dẫn cài đặt & Khởi chạy
+## 2. Hướng dẫn cài đặt & Khởi chạy (Hoàn toàn tự động)
 
-### Bước 1: Cài đặt Node.js (Chỉ cần làm 1 lần duy nhất)
-1. Truy cập trang chủ Node.js: **[https://nodejs.org](https://nodejs.org)**
-2. Tải bản **LTS (Recommended for Most Users)** - dạng file cài đặt `.msi`.
-3. Mở file vừa tải về, bấm **Next** liên tục theo mặc định cho đến khi **Finish**.
+Bạn chỉ cần thực hiện **2 bước đơn giản**:
 
----
-
-### Bước 2: Tải phần mềm từ GitHub
+### Bước 1: Tải phần mềm từ GitHub
 1. Nhấn nút xanh **Code** trên trang GitHub này -> Chọn **Download ZIP** (hoặc dùng lệnh `git clone https://github.com/ttcvn247/audio-viewer.git`).
 2. Giải nén file ZIP vào một thư mục trên máy tính (ví dụ: `D:\audio-viewer` hoặc `C:\audio-viewer`).
 
 ---
 
-### Bước 3: Khởi chạy phần mềm
+### Bước 2: Khởi chạy phần mềm
 👉 **Nhấp đúp chuột trực tiếp vào file `audio-viewer.exe`**.
 
-- **Trong lần đầu tiên khởi chạy:** Hệ thống sẽ tự động khởi tạo và cài đặt các thư viện cần thiết (`npm install`). Quá trình này chỉ mất 1 - 2 phút.
-- **Tự động mở trình duyệt:** Sau khi máy chủ sẵn sàng, ứng dụng sẽ tự động mở trình duyệt web tới địa chỉ:
+Phần mềm sẽ tự động xử lý mọi thứ từ A đến Z:
+- **Tự động kiểm tra & cài đặt Node.js:** Nếu máy tính của bạn chưa có Node.js, `audio-viewer.exe` sẽ tự động tải và cài đặt ngầm bản Node.js LTS chính thức (không cần người dùng thao tác).
+- **Tự động nạp thư viện:** Trong lần đầu tiên chạy, hệ thống sẽ tự động cấu hình các gói cần thiết (chỉ mất 1 - 2 phút).
+- **Tự động mở trình duyệt web:** Sau khi máy chủ sẵn sàng, ứng dụng sẽ tự động mở trình duyệt tới địa chỉ:
   👉 **`http://localhost:3000`**
 
-*(Lưu ý: Không tắt cửa sổ console màu đen của `audio-viewer.exe` trong khi sử dụng phần mềm. Khi muốn tắt phần mềm, chỉ cần nhấn tổ hợp phím `Ctrl + C` hoặc đóng cửa sổ console).*
+*(Lưu ý: Không tắt cửa sổ console màu đen của `audio-viewer.exe` trong khi sử dụng phần mềm. Khi muốn dừng máy chủ, chỉ cần nhấn tổ hợp phím `Ctrl + C` hoặc đóng cửa sổ console).*
 
 ---
 
