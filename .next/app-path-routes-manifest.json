@@ -10,8 +10,8 @@
   "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
   "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
-  "/api/license/status/route": "/api/license/status",
   "/api/license/activate/route": "/api/license/activate",
+  "/api/license/status/route": "/api/license/status",
   "/api/records/route": "/api/records",
   "/login/page": "/login"
 }
