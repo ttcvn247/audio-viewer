@@ -4,6 +4,7 @@
   "/api/audio/route": "app/api/audio/route.js",
   "/api/settings/public/route": "app/api/settings/public/route.js",
   "/api/settings/route": "app/api/settings/route.js",
+  "/api/system/update/route": "app/api/system/update/route.js",
   "/api/user/password/route": "app/api/user/password/route.js",
   "/api/users/route": "app/api/users/route.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
@@ -11,6 +12,6 @@
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
   "/api/license/status/route": "app/api/license/status/route.js",
   "/api/license/activate/route": "app/api/license/activate/route.js",
-  "/login/page": "app/login/page.js",
-  "/api/records/route": "app/api/records/route.js"
+  "/api/records/route": "app/api/records/route.js",
+  "/login/page": "app/login/page.js"
 }

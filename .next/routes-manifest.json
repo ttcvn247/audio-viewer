@@ -87,6 +87,12 @@
       "namedRegex": "^/api/settings/public(?:/)?$"
     },
     {
+      "page": "/api/system/update",
+      "regex": "^/api/system/update(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/system/update(?:/)?$"
+    },
+    {
       "page": "/api/user/password",
       "regex": "^/api/user/password(?:/)?$",
       "routeKeys": {},
